@@ -1,0 +1,31 @@
+{
+  "name": "prueba/storage-link-route",
+  "description": "Paquete para poder ejecutar el comando storage-link en servidores compartidos con CPanel en los que no se tiene acceso a través de consola",
+  "authors": [
+    {
+      "name": "Angel Munoz",
+      "email": "angelmmm000@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Prueba\\StorageLinkRoute\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Prueba\\StorageLinkRoute\\Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "orchestra/testbench": "^7.1",
+    "phpunit/phpunit": "^9.5"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Prueba\\StorageLinkRoute\\StorageLinkRouteServiceProvider"
+      ]
+    }
+  }
+}
