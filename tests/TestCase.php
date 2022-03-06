@@ -1,9 +1,9 @@
 <?php
 
-namespace Prueba\StorageLinkRoute\Tests;
+namespace Nneet\StorageLinkRoute\Tests;
 
+use Nneet\StorageLinkRoute\StorageLinkRouteServiceProvider;
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
-use Prueba\StorageLinkRoute\StorageLinkRouteServiceProvider;
 
 class TestCase extends OrchestraTestCase
 {

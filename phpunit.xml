@@ -19,10 +19,10 @@
         <include>
             <directory suffix=".php">./src</directory>
         </include>
-<!--        <report>-->
-<!--            <text outputFile="tests/coverage2.txt" showUncoveredFiles="true"/>-->
-<!--            <html outputDirectory="tests/coverage"/>-->
-<!--        </report>-->
+        <!--        <report>-->
+        <!--            <text outputFile="tests/coverage2.txt" showUncoveredFiles="true"/>-->
+        <!--            <html outputDirectory="tests/coverage"/>-->
+        <!--        </report>-->
     </coverage>
 
 </phpunit>

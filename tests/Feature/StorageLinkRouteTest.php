@@ -1,9 +1,9 @@
 <?php
 
-namespace Prueba\StorageLinkRoute\Tests\Feature;
+namespace Nneet\StorageLinkRoute\Tests\Feature;
 
 use Illuminate\Filesystem\Filesystem;
-use Prueba\StorageLinkRoute\Tests\TestCase;
+use Nneet\StorageLinkRoute\Tests\TestCase;
 
 class StorageLinkRouteTest extends TestCase
 {

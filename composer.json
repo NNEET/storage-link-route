@@ -1,5 +1,5 @@
 {
-  "name": "prueba/storage-link-route",
+  "name": "nneet/storage-link-route",
   "description": "Paquete para poder ejecutar el comando storage-link en servidores compartidos con CPanel en los que no se tiene acceso a través de consola",
   "authors": [
     {
@@ -9,12 +9,12 @@
   ],
   "autoload": {
     "psr-4": {
-      "Prueba\\StorageLinkRoute\\": "src/"
+      "Nneet\\StorageLinkRoute\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Prueba\\StorageLinkRoute\\Tests\\": "tests/"
+      "Nneet\\StorageLinkRoute\\Tests\\": "tests/"
     }
   },
   "require-dev": {
@@ -24,7 +24,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Prueba\\StorageLinkRoute\\StorageLinkRouteServiceProvider"
+        "Nneet\\StorageLinkRoute\\StorageLinkRouteServiceProvider"
       ]
     }
   }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Prueba\StorageLinkRoute;
+namespace Nneet\StorageLinkRoute;
 
 use Illuminate\Support\ServiceProvider;
 

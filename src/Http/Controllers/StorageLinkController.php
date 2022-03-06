@@ -1,6 +1,6 @@
 <?php
 
-namespace Prueba\StorageLinkRoute\Http\Controllers;
+namespace Nneet\StorageLinkRoute\Http\Controllers;
 
 use Illuminate\Filesystem\Filesystem;
 
