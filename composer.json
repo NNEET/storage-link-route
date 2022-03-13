@@ -1,6 +1,7 @@
 {
   "name": "nneet/storage-link-route",
   "description": "Paquete para poder ejecutar el comando storage-link en servidores compartidos con CPanel en los que no se tiene acceso a través de consola",
+  "license": "MIT",
   "authors": [
     {
       "name": "Angel Munoz",
